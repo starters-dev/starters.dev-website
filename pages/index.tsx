@@ -43,7 +43,7 @@ const IndexPage = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://github.com/starters-dev/index"
+                    href="https://github.com/starters-dev/awesome-list"
                     rel="noreferrer"
                     target="_blank"
                     className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"
