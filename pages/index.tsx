@@ -1,5 +1,6 @@
 import Script from "next/script";
 import { Container } from "../components/Container";
+import { GoToLink } from "../components/GoToLink";
 
 const IndexPage = () => {
   return (
@@ -17,9 +18,31 @@ const IndexPage = () => {
                 </h1>
                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
                   A collection of tailor-made starters that are used in
-                  production and are useful for personal use.
+                  production, personal and educational purposes.
                   <br />
-                  React Native, DevOps, Docker, Traefik, and more.
+                  <div className="mt-2">
+                    Including{" "}
+                    <GoToLink
+                      where="https://reactnative.dev"
+                      title="React Native"
+                    />
+                    ,{" "}
+                    <GoToLink
+                      where="https://www.docker.com/"
+                      title="Docker (Compose)"
+                    />
+                    ,{" "}
+                    <GoToLink
+                      where="https://traefik.io/traefik/"
+                      title="Traefik"
+                    />
+                    ,{" "}
+                    <GoToLink
+                      where="https://letsencrypt.org/"
+                      title="Let's Encrypt"
+                    />{" "}
+                    (https://) and more.
+                  </div>
                 </p>
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                   <a
