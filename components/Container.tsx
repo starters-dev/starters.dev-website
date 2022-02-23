@@ -1,11 +1,10 @@
 import Head from "next/head";
-import { Header } from "./Header";
 
 type ContainerProps = {
   title: string;
 };
 export const Container: React.FC<ContainerProps> = ({ children, title }) => {
-  const _title = title + " | NextJS + TailwindCSS starter";
+  const _title = title + " | Starters for developers and entrepreneurs";
 
   return (
     <>
@@ -14,12 +13,8 @@ export const Container: React.FC<ContainerProps> = ({ children, title }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container p-2 mx-auto min-w-[382px]">
-        <div className="flex flex-col">
-          <Header />
-
-          {children}
-        </div>
+      <div className="container mx-auto min-w-[382px]">
+        <div className="flex flex-col">{children}</div>
       </div>
     </>
   );

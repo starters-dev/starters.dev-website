@@ -1,8 +1,9 @@
 import Script from "next/script";
+import { Container } from "../components/Container";
 
 const IndexPage = () => {
   return (
-    <div>
+    <Container title="Main page">
       <section className="px-2 py-12 bg-white md:px-0">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
@@ -121,7 +122,7 @@ const IndexPage = () => {
       </section>
 
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js" />
-    </div>
+    </Container>
   );
 };
 
