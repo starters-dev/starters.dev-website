@@ -20,7 +20,7 @@ const IndexPage = () => {
                   A collection of tailor-made starters that are used in
                   production, personal and educational purposes.
                   <br />
-                  <div className="mt-2">
+                  <p className="mt-2">
                     Including{" "}
                     <GoToLink
                       where="https://reactnative.dev"
@@ -42,8 +42,9 @@ const IndexPage = () => {
                       title="Let's Encrypt"
                     />{" "}
                     (https://) and more.
-                  </div>
+                  </p>
                 </p>
+
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
                   <a
                     href="https://github.com/starters-dev"
@@ -65,6 +66,7 @@ const IndexPage = () => {
                       ></path>
                     </svg>
                   </a>
+
                   <a
                     href="https://github.com/starters-dev/awesome-list"
                     rel="noreferrer"
