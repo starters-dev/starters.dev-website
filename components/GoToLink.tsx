@@ -8,7 +8,7 @@ type GoToLinkProps = {
 
 export const GoToLink = ({ where, title, blank }: GoToLinkProps) => {
   const aClass =
-    "hover:cursor-pointer hover:bg-primary border-b border-b-primary";
+    "hover:cursor-pointer hover:bg-primary hover:text-gray-100 border-b border-b-primary";
   const external = where.includes("http://") || where.includes("https://");
 
   if (external || blank)
