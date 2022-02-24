@@ -13,7 +13,7 @@ const IndexPage = () => {
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                   <span className="block">Starters for</span>
                   <span className="block text-primary">
-                    Developers & Entrepreneurs
+                    Developers, Learners & Entrepreneurs
                   </span>
                 </h1>
                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
@@ -102,7 +102,7 @@ const IndexPage = () => {
             by Batyr<span className="text-primary">.</span>
           </a>
           <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
-            © {new Date().getFullYear()} Starters for developers and
+            © {new Date().getFullYear()} Starters for developers, learners and
             entrepreneurs
           </p>
           <span className="inline-flex justify-center mt-4 space-x-4 sm:ml-auto sm:mt-0 sm:justify-start">
