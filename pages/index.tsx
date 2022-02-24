@@ -102,11 +102,12 @@ const IndexPage = () => {
             by Batyr<span className="text-primary">.</span>
           </a>
           <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
-            © 2022 Starters for developers and entrepreneurs
+            © {new Date().getFullYear()} Starters for developers and
+            entrepreneurs
           </p>
           <span className="inline-flex justify-center mt-4 space-x-4 sm:ml-auto sm:mt-0 sm:justify-start">
             <a
-              href="https://twitter.com/kanzitelli"
+              href="https://twitter.com/StartersDev"
               rel="noreferrer"
               target="_blank"
               className="text-gray-400 hover:text-primary"
@@ -123,7 +124,7 @@ const IndexPage = () => {
             </a>
 
             <a
-              href="https://github.com/kanzitelli"
+              href="https://github.com/starters-dev"
               rel="noreferrer"
               target="_blank"
               className="text-gray-400 hover:text-primary"
